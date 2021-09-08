@@ -21,6 +21,10 @@ body {
     font-family: "Jost", sans-serif;
 }
 
+main .enlace {
+    display: none;
+}
+
 header {
     padding: 0 3rem;
 }
