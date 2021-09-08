@@ -1,0 +1,144 @@
+
+html {
+    font-size: 20px;
+}
+
+::selection {
+    background-color: #273746;
+    color: #f4f6f7;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    min-width: 500px;
+    max-width: 2000px;
+    text-align: justify;
+    font-family: "Jost", sans-serif;
+}
+
+header {
+    padding: 0 3rem;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    transition: .5s;
+    user-select: none;
+}
+
+h2 {
+    font-family: 'Fredoka One', cursive;
+    text-align: left;
+    font-size: 1.7rem;
+    
+}
+
+/* Header */
+
+header h1 {
+    font-family: "Caveat", cursive;
+    text-align: center;
+    border-bottom: 3px solid #117A65;
+    margin: 0;
+    padding: 2rem;
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+}
+
+header .header-concept {
+    margin-bottom: 1.5rem;
+}
+
+
+/* MAIN */
+
+.container-images {
+    display: flex;
+    margin: 1.5rem 0;
+}
+
+.container-images .container-picture{
+    width: 50%;
+    height: 20rem;
+    padding: .5rem;
+    background-color: #fff;
+    margin: 0.5rem;
+    border-radius: .5rem;
+    overflow: hidden;
+}
+
+main .section-tip_2 .container-picture {
+    background-color: #E74C3C;
+}
+
+main .section-tip_4 .container-picture {
+    background-color: #2980B9;
+}
+
+main .section-tip_6 .container-picture {
+    background-color: #138D75;
+}
+
+.container-images .container-picture img {
+    object-fit: cover;
+    object-position: center;
+    border-radius: .5rem;
+}
+
+.section-tip_1 {
+    padding: .5rem 3rem;
+    background-color: #CB4335;
+    color: #fff;
+}
+
+.section-tip_2 {
+    padding: .5rem 3rem;
+    color: #283747;
+}
+
+.section-tip_3 {
+    padding: .5rem 3rem;
+    background-color: #2980B9 ;
+    color: #fff;
+}
+
+.section-tip_4 {
+    padding: .5rem 3rem;
+    color: #283747;
+}
+
+.section-tip_5 {
+    padding: .5rem 3rem;
+    background-color: #28B463;
+    color: #fff;
+}
+
+.section-tip_6 {
+    padding: .5rem 3rem;
+    color: #283747;
+}
+
+.section-tip_6 .list {
+    text-align: left;
+}
+
+
+/* FOOTER */
+
+footer {
+    font-family: "Caveat", cursive;
+}
+
+footer .autor{
+    background-color: #000;
+    padding: .5rem;
+}
+
+footer h4 {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
